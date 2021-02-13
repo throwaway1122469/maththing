@@ -3,7 +3,7 @@ from discord.ext import commands
 import math
 import os
 bot = commands.Bot(case_insensitive=True, command_prefix='$')
-
+logging.basicConfig(level='INFO')
 @bot.listen()
 async def on_ready():
     print('Bot is up and running')
