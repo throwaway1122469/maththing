@@ -1,1 +1,12 @@
+google-api-python-client
+datadog
+upsidedown
+apiclient
+oauth2client
 git+https://github.com/Rapptz/discord.py
+cached_property
+youtube_dl
+google
+google-search
+praw
+googletrans
