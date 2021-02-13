@@ -4,6 +4,9 @@ import math
 import os
 bot = commands.Bot(case_insensitive=True, command_prefix='$')
 
+@bot.listen()
+async def on_ready():
+    print('Bot is up and running')
 
 @bot.command()
 async def chei(ctx):
